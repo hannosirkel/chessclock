@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.ChessClock" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Regular app styling, colors, etc. -->
+    </style>
+
+    <!-- Splash theme used at launch -->
+    <style name="Theme.ChessClock.Splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- The default splash screen attributes -->
+        <item name="windowSplashScreenBackground">@color/yourSplashBackgroundColor</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_chess_clock</item>
+        <item name="windowSplashScreenIconBackgroundColor">@android:color/transparent</item>
+        <!-- When the splash is dismissed, switch to your app theme -->
+        <item name="postSplashScreenTheme">@style/Theme.ChessClock</item>
+    </style>
+</resources>

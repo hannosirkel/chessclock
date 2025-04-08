@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chess Clock"
+        android:textSize="24sp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5 minutes"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btn10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10 minutes"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btn15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="15 minutes"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btn30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="30 minutes"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btn60"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="60 minutes"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Debug timer option (visible only if DEBUG_MODE is true) -->
+    <Button
+        android:id="@+id/btn10sec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10 sec"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btnResume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="resume"
+        android:background="@drawable/rounded_button"
+        android:visibility="gone"/>
+</LinearLayout>
